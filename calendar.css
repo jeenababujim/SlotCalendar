@@ -1,0 +1,174 @@
+ #calendar {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #prev,
+        #next {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            /* margin-top: 10px; */
+        }
+
+
+        /* td,
+        th {
+            height: 50%; 
+            font-size: small;
+        } */
+        /* td {
+            padding: 5%;
+            
+            
+        } */
+
+        td.clickable {
+            cursor: pointer;
+            /* background-color: #e6f7ff; */
+
+
+
+        }
+       
+        /* td:not(.clickable) {
+            background-color: #f2f2f2;
+        }
+    */
+       
+ 
+        #time button {
+            margin: 5px;
+            padding: 8px;
+            cursor: pointer;
+            background-color:#ffffff ; /*#2ecc71*/
+            /* color: white; */
+            border: .5px solid gray;
+            border-radius: 8px;
+            color:#000000;
+            float:left;
+            /* font-size:14px; */
+            /* float:left; */
+            /* width:100px; */
+        }
+
+        .appointment-btn {
+            margin: 5px;
+            padding: 8px;
+            cursor: pointer;
+            background-color: #408bc0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #time button:disabled {
+            background-color: #f2f2f2;
+            cursor: not-allowed;
+        }
+
+        .clicked-slot {
+            background-color: #7ebf7e;
+        }
+
+        /* Styling for the modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        /* Styling for overlay/background */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        /* Styling for buttons inside the modal */
+        .modal button {
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        h5{
+          text-align: center;
+          margin-top:2%; 
+        }
+        #holidaytext{
+            font-size: 8px;
+            
+        }
+        .holiday {
+            /* background-color: #ffcccc;  */
+            /* line-height: 0.8; */
+            background-color: #f2f2f2;
+            
+        }
+
+        /* .circle {
+  background-image:
+    -webkit-radial-gradient(
+      circle,
+      red, red 20px, transparent 20px
+    );
+  background-image:
+    radial-gradient(
+      circle,
+      red, red 20px, transparent 20px
+    );
+border:1px solid grey;
+} */
+
+table {
+  /* width: 80%; */
+  margin: 1em auto;
+  /* table-layout: fixed; */
+  text-align: center;
+
+  
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: middle;
+
+  
+}
+
+
+/* td {
+  height: 40px;
+} */
+.round-clicked {
+    margin:auto;
+    background-image:
+    -webkit-radial-gradient(
+      circle,
+      black, black 20px, transparent 10px
+    );
+  background-image:
+    radial-gradient(
+      circle,
+      black, black 17px, transparent 20px
+    );
+/* border:1px solid grey; */
+color:#fff;
+
+}
+
+.container{
+width:40% ! important;
+min-width: 550px;
+}
